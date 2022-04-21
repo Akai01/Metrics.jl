@@ -1,0 +1,13 @@
+name = "Metrics"
+uuid = "2f5f7d54-6893-4422-9ad5-7bdbd4c94e46"
+authors = ["Resul Akay <resul.akay@quantics.io> and contributors"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
